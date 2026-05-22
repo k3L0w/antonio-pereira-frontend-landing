@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Landing page profissional de Antonio Pereira para candidatura a Desenvolvedor Frontend presencial em Campinas/SP."
+    />
+    <title>Antonio Pereira | Desenvolvedor Frontend</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <header class="site-header" aria-label="Cabeçalho principal">
+      <nav class="nav-shell" aria-label="Navegação principal">
+        <a class="brand" href="#topo" aria-label="Antonio Pereira, início">
+          <span class="brand-mark" aria-hidden="true">AP</span>
+          <span class="brand-copy">
+            <strong>Antonio Pereira</strong>
+            <small>Frontend &middot; UX/UI &middot; Dados</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Abrir menu</span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a href="#perfil">Perfil</a>
+          <a href="#projeto">Projeto</a>
+          <a href="#competencias">Competências</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#evolucao">Evolução</a>
+          <a href="#contato">Contato</a>
+          <a class="nav-cta" href="#contato">Falar comigo</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="topo" aria-labelledby="hero-title">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="badge">Candidatura presencial em Campinas/SP</p>
+          <h1 id="hero-title">Desenvolvedor Frontend com produto real, UX refinado e entrega verificável.</h1>
+          <p class="hero-lead">
+            Sou Antonio Pereira. Construo interfaces responsivas com HTML5, CSS3 e JavaScript, conectando UX/UI, APIs,
+            Git/GitHub, documentação técnica e workflow moderno em projetos reais.
+          </p>
+
+          <div class="hero-actions" aria-label="Ações principais">
+            <a
+              class="button button-primary"
+              href="https://github.com/k3L0w/votodata-brasil"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver VotoData Brasil
+            </a>
+            <a class="button button-secondary" href="#contato">Falar comigo</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel animated-border" aria-label="Portfólio demonstrável">
+          <div class="panel-topline">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Portfólio demonstrável</span>
+          </div>
+          <dl class="evidence-list">
+            <div><dt>Stack</dt><dd>HTML5 / CSS3 / JavaScript</dd></div>
+            <div><dt>Layout</dt><dd>Grid + Flexbox + responsivo</dd></div>
+            <div><dt>Workflow</dt><dd>Codespaces + Codex + GitHub</dd></div>
+            <div><dt>Quality gate</dt><dd>testes + lint + validação</dd></div>
+            <div><dt>Projeto</dt><dd>VotoData Brasil</dd></div>
+            <div><dt>Backend/API</dt><dd>FastAPI + PostgreSQL/Neon</dd></div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section" id="perfil" aria-labelledby="perfil-title">
+        <div class="section-heading">
+          <p class="eyebrow">Aderência direta à vaga</p>
+          <h2 id="perfil-title">Fundamentos web aplicados em uma entrega real e verificável.</h2>
+          <p>
+            A base da candidatura é prática: estrutura semântica, responsividade, interação com JavaScript, revisão de
+            diff e publicação por GitHub Pages.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card"><span class="card-icon">HTML5</span><h3>HTML5 semântico</h3><p>Seções claras, hierarquia correta e conteúdo acessível para leitura humana e navegação por teclado.</p></article>
+          <article class="feature-card"><span class="card-icon">CSS3</span><h3>CSS3 moderno</h3><p>Variáveis visuais, gradientes controlados, estados responsivos e acabamento sem dependência pesada.</p></article>
+          <article class="feature-card"><span class="card-icon">JS</span><h3>JavaScript modular</h3><p>Interações progressivas, menu mobile, observação de cards e comportamento preservado sem framework.</p></article>
+          <article class="feature-card"><span class="card-icon">FX</span><h3>Flexbox</h3><p>Alinhamento de navegação, botões, chips e grupos de ações com fluidez em diferentes larguras.</p></article>
+          <article class="feature-card"><span class="card-icon">GR</span><h3>CSS Grid</h3><p>Composição de hero, cards, métricas e timeline com densidade visual equilibrada no desktop.</p></article>
+          <article class="feature-card"><span class="card-icon">RP</span><h3>Layouts responsivos</h3><p>Experiência consistente em 360px, tablet, notebook e telas largas, com empilhamento previsível.</p></article>
+          <article class="feature-card"><span class="card-icon">UX</span><h3>UX/UI</h3><p>Contraste, foco visível, microinterações discretas e leitura rápida para uma avaliação objetiva.</p></article>
+          <article class="feature-card"><span class="card-icon">GH</span><h3>Git/GitHub</h3><p>Fluxo com branch, commit rastreável, testes, lint, GitHub Actions e documentação de publicação.</p></article>
+        </div>
+      </section>
+
+      <section class="project-band" id="projeto" aria-labelledby="projeto-title">
+        <div class="project-copy">
+          <p class="eyebrow">Projeto principal</p>
+          <h2 id="projeto-title">VotoData Brasil como prova de entrega real.</h2>
+          <p>
+            Plataforma local-first para consulta pública neutra de dados eleitorais brasileiros, com frontend responsivo,
+            interface cívico-tech, integração com API, FastAPI, PostgreSQL/Neon, DuckDB/Parquet, testes automatizados,
+            documentação, GitHub workflow, GitHub Actions, PRs e quality gates.
+          </p>
+          <a
+            class="inline-link"
+            href="https://github.com/k3L0w/votodata-brasil"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Abrir repositório no GitHub
+          </a>
+        </div>
+
+        <div class="metric-grid" aria-label="Capacidades demonstradas no projeto">
+          <div class="metric-card"><strong>Frontend</strong><span>layout responsivo e interface cívico-tech</span></div>
+          <div class="metric-card"><strong>API</strong><span>FastAPI, contratos e integração de dados</span></div>
+          <div class="metric-card"><strong>Dados</strong><span>PostgreSQL/Neon, DuckDB/Parquet e validação</span></div>
+          <div class="metric-card"><strong>Entrega</strong><span>GitHub Actions, PRs, testes e documentação</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="workflow" aria-labelledby="workflow-title">
+        <div class="section-heading">
+          <p class="eyebrow">Workflow moderno de desenvolvimento</p>
+          <h2 id="workflow-title">IA como ferramenta de produtividade, com responsabilidade técnica humana.</h2>
+          <p>
+            Desenvolvo com um fluxo moderno: GitHub Codespaces, Codex, agentes especializados, testes automatizados,
+            documentação e revisão humana.
+          </p>
+        </div>
+
+        <div class="workflow-grid">
+          <article class="workflow-card"><h3>GitHub Codespaces</h3><p>Ambiente reproduzível para desenvolver, testar e versionar sem depender de setup local complexo.</p></article>
+          <article class="workflow-card"><h3>Codex como copiloto técnico</h3><p>Apoio para scaffolding, revisão, documentação e refino, mantendo revisão humana e responsabilidade técnica.</p></article>
+          <article class="workflow-card"><h3>AGENTS.md e agentes especialistas</h3><p>Organização do projeto com agentes por disciplina: UX, Backend, Dados, Segurança, QA e Docs.</p></article>
+          <article class="workflow-card"><h3>Quality gates</h3><p>Testes, lint, validação de projeto e revisão de diff antes de merge.</p></article>
+          <article class="workflow-card"><h3>Revisão humana</h3><p>Decisões técnicas, validação final e responsabilidade de entrega permanecem com Antonio.</p></article>
+        </div>
+      </section>
+
+      <section class="section" id="competencias" aria-labelledby="competencias-title">
+        <div class="section-heading">
+          <p class="eyebrow">Como trabalho</p>
+          <h2 id="competencias-title">Organização visual e técnica para entregar sem ruído.</h2>
+        </div>
+
+        <div class="practice-grid">
+          <article class="practice-card"><h3>Clareza visual</h3><p>Hierarquia, contraste e ritmo para facilitar decisão e leitura.</p></article>
+          <article class="practice-card"><h3>Organização técnica</h3><p>Arquivos previsíveis, escopo pequeno e escolhas alinhadas ao projeto.</p></article>
+          <article class="practice-card"><h3>Validação com testes</h3><p>Automação para proteger conteúdo, segurança e comportamento essencial.</p></article>
+          <article class="practice-card"><h3>Documentação</h3><p>README e notas operacionais para publicar, manter e revisar a entrega.</p></article>
+          <article class="practice-card"><h3>Evolução contínua</h3><p>Base forte em web e trilha natural para componentes em React ou Angular.</p></article>
+          <article class="practice-card"><h3>Colaboração objetiva</h3><p>Comunico decisões, riscos, validações e próximos passos de forma direta.</p></article>
+        </div>
+      </section>
+
+      <section class="timeline-section" id="evolucao" aria-labelledby="evolucao-title">
+        <div class="section-heading">
+          <p class="eyebrow">Evolução</p>
+          <h2 id="evolucao-title">Uma trilha curta, prática e em movimento.</h2>
+        </div>
+        <ol class="timeline">
+          <li><strong>Fundamentos web</strong><span>HTML5, CSS3, JavaScript e acessibilidade.</span></li>
+          <li><strong>Frontend responsivo</strong><span>Flexbox, CSS Grid, mobile-first e microinterações.</span></li>
+          <li><strong>VotoData Brasil</strong><span>Produto real com UX, dados, API e documentação.</span></li>
+          <li><strong>API e dados</strong><span>FastAPI, PostgreSQL/Neon, SQLite, DuckDB/Parquet e validação.</span></li>
+          <li><strong>Workflow com IA e agentes</strong><span>Codespaces, Codex, AGENTS.md, testes, lint e revisão.</span></li>
+          <li><strong>Próximo passo</strong><span>Contribuir como Desenvolvedor Frontend em um time presencial.</span></li>
+        </ol>
+      </section>
+
+      <section class="contact-section" id="contato" aria-labelledby="contato-title">
+        <div>
+          <p class="eyebrow">Contato</p>
+          <h2 id="contato-title">Disponível para conversar sobre a oportunidade.</h2>
+          <p>
+            Presencial em Campinas/SP, com foco em aprender rápido, entregar com qualidade e colaborar de forma clara.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:icloud.pereira@icloud.com">E-mail</a>
+          <a
+            class="button button-secondary"
+            href="https://www.linkedin.com/in/antonio-pereira-professional/?locale=pt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a
+            class="button button-secondary"
+            href="https://github.com/k3L0w/votodata-brasil"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Antonio Pereira - candidatura frontend. Sem logo, imagem ou asset proprietário de terceiros.</p>
+    </footer>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
